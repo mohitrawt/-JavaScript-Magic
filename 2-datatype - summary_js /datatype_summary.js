@@ -38,3 +38,31 @@ const myfun = function(){
 }
 
 // NOTE : null - type : - object 
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack memory is used in primitive data type
+
+let mycharname = "Mannu";
+
+let anothercharname = mycharname; //reference
+anothercharname = "Ravan";
+
+// console.log(mycharname);
+// console.log(anothercharname);
+
+
+// Heap memory is used in non-primitve
+
+let user_Mannu = {
+    name : "mohit",
+    isLoggedIn : true,
+}
+
+let user_Ravan = user_Mannu;
+
+user_Ravan.name = "Mannu";
+
+console.log(user_Mannu.name);
+
