@@ -59,5 +59,4 @@ console.log(n2);
 let game_counter = 100;
 game_counter++;
 console.log(game_counter++);
-console.log(game_counter);
-
+log
