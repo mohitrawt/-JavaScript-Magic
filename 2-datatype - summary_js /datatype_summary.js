@@ -37,5 +37,4 @@ const myfun = function(){
     
 }
 
-// NOTE : 
-// null - type  - object 
+// NOTE : null - type : - object 
